@@ -12,5 +12,15 @@ public class Main {
         final char PLAYER = 'x';
         char board[][] = new char[HEIGHT][LENGTH];
 
+        
+        //affichage du plateau
+        for (char dim1[]:board
+             ) {
+            for (char display:dim1
+                 ) {
+                System.out.print(display);
+            }
+            System.out.println();
+        }
     }
 }
